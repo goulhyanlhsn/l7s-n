@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لعبة التقاط الكرات</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="player"></div>
+        <div id="ball"></div>
+    </div>
+    <div id="score-board">النقاط: <span id="score">0</span></div>
+
+    <div id="message-form">
+        <h3>أرسل رسالة مخيفة</h3>
+        <input type="text" id="friendName" placeholder="اسم الصديق" />
+        <textarea id="message" placeholder="أدخل الرسالة هنا"></textarea>
+        <button onclick="sendMessage()">إرسال الرسالة</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
